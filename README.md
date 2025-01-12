@@ -3,8 +3,10 @@ This repository aims at modelling the volatility of three Moroccan stocks as a f
 The three stockes are : Akdital (AKT), ATTIJARI WAFABANK (ATW) and Banque populaire (BCP).
 This repo aims at finding the best parameters then applying a GARCH model on them and verififying the results .
 The code is written functionnaly so as modification can come easily, in addition the code gives you the opportunity to try any stock at the condition of the data following the normal form of the Bourse de Casablance.
+The user has also the choise between a student distribution but also a skewed student which i programmed in the file *functions.py*
 # Results
 Here we give the example of the result of AKDITAL 
+
 ![image](https://github.com/user-attachments/assets/59f6475b-cd66-4130-aafe-1c4332896bfd)
 ![image](https://github.com/user-attachments/assets/b0ef9a66-23c6-4541-8cf5-24215efcac4c)
 ![image](https://github.com/user-attachments/assets/08f29808-9997-4829-81d4-eee757b8fadb)
